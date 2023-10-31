@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "nulllight",
+	"version": "${version}",
+	"name": "nulllight",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nulllight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.cylian91.nullight.Nulllight"
+		]
+	},
+	"mixins": [
+		"nulllight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
